@@ -1,0 +1,50 @@
+
+.color-credit{
+    color: #7B61FF;
+}
+.color-debit{
+    color: #FA8C10;
+}
+.color-total{
+    color: #3A9FF1;    
+}
+.container-modal{ 
+    display: flex;
+    padding: 20px; 
+    flex-direction: column;
+    gap:15px;
+    position: absolute ;    
+    top: 240px;
+    left: 1000px;  
+    width: 236px;
+    height: 196px;    
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+}
+
+.resumoModal{
+    display: flex;
+    justify-content: space-between;
+}
+.textoModal{
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+}
+.fontePequena{
+    font-size: 13px;
+}    
+.fonteMedia{
+    font-size: 14px;
+}    
+.fonteGrande{
+    font-size: 18px;
+}    
+.color-escura{
+    color: #2F2F2F;
+}
+.linhaPequena{     
+    border: 1px solid #EAEAEA;    
+}

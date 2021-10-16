@@ -1,0 +1,11 @@
+
+.tabela-ordenar{          
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;     
+    gap:65px;  
+    list-style-type: none;
+    height: 50px;     
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

@@ -1,0 +1,117 @@
+.modal{
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(61, 61, 61, 0.48);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  z-index: 4;
+}
+.modal-content {
+  width: 450px;
+  height: 700px;
+  position: relative;
+  padding: 20px 45px 10px 45px; 
+  background: #ffffff;  
+  border-radius: 20px;  
+  box-shadow: 0px 4px 16px rgba(50, 50, 50, 0.4); 
+}
+.titulo-modal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Rubik sans-serif;
+  font-size: 20px;  
+  font-style: normal; 
+  font-weight: 700;
+  text-align: left;
+}
+.titulo-modal p {
+  font-size: 32px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-ent-sai{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-ent{
+  color:#FFFFFF;
+  padding: 15px 90px;
+  border-radius: 6px 0px 0px 6px;  
+}
+
+
+
+.btn-claro{
+  background: #B9B9B9;
+}
+.btn-entrada{
+  background: linear-gradient(91.26deg, #05EDE3 0%, #3A9FF1 97.77%);
+}
+.btn-saida{
+  background: linear-gradient(91.66deg, #FA8C10 0%, #FF576B 90.32%);
+
+}
+
+
+.btn-sai{
+  color:#FFFFFF;
+  padding: 15px 90px;
+  border-radius: 0px 6px 6px 0px;
+}
+.form-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 15px;
+}
+.form-label{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-modal{
+  font-family: Rubik;
+  font-style: normal;  
+  font-size: 24px;
+  line-height: 17px;
+  color: black;
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  
+}
+
+.btn-confirmar{
+  margin-top: 20px;
+  padding: 15px 90px;
+  border-radius: 5px;
+  color:#FFFFFF;
+  background: #645FFB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

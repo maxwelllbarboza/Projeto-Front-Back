@@ -1,0 +1,40 @@
+
+.color-credit{
+    color: #7B61FF;
+}
+.color-debit{
+    color: #FA8C10;
+}
+.color-total{
+    color: #3A9FF1;    
+}
+.tabela-geral{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}  
+.tabela-ul{
+   display: flex; 
+   justify-content: flex-start;
+   gap: 30px;   
+   text-align: center;   
+}
+.tabela-li{    
+    list-style-type: none;
+    min-width: 100px;       
+}
+.btn-tabela{   
+    display: flex;
+    align-items: center;
+    justify-content:end;    
+    max-width: 150px;
+}
+.btn-right{
+    margin-left: 10px;
+}
+.btn-left{
+   color: #7454B3;
+}
+.linhaGrande{    
+    border: 1px solid #E0E0E0;
+}

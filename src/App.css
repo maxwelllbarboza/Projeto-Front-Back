@@ -1,0 +1,138 @@
+.filtro {
+    margin:40px 0 20px 210px;
+    padding: 15px 25px;    
+    text-align: center;
+    border: #FAFAFA;  
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);    
+    border-radius: 10px;  
+}
+.div-ordenar  {
+    padding-left: 210px;
+    padding-bottom: 20px;
+    max-width: 720px;    
+}
+.tabela-ordenar{          
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;     
+    gap:65px;  
+    list-style-type: none;
+    height: 50px;     
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.tabela {  
+    padding-left: 200px;        
+}
+.color-credit{
+    color: #7B61FF;
+}
+.color-debit{
+    color: #FA8C10;
+}
+.color-total{
+    color: #3A9FF1;    
+}
+.tabela-geral{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}  
+.tabela-ul{
+   display: flex; 
+   justify-content: flex-start;
+   gap: 30px;   
+   text-align: center;
+   
+}
+.tabela-li{    
+    list-style-type: none;
+    min-width: 100px;       
+}
+.btn-tabela{   
+    display: flex;
+    align-items: center;
+    justify-content:end;    
+    max-width: 150px;
+}
+.btn-right{
+    margin-left: 10px;
+}
+.btn-left{
+   color: #7454B3;
+
+}
+.container-modal{ 
+    display: flex;
+    padding: 20px; 
+    flex-direction: column;
+    gap:15px;
+    position: absolute ;    
+    top: 240px;
+    left: 1000px;  
+    width: 236px;
+    height: 196px;    
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+}
+
+
+.resumo-registro{
+    display: flex;
+    flex-direction: column;    
+    position: absolute ;    
+    top: 530px;
+    left: 1010px;  
+    width: 266px;
+    height: 196px;        
+}
+.btn-registro{
+    padding: 10px 40px; 
+    background: linear-gradient(91.26deg, #FA8C10 0%, #FF57D3 97.77%);
+    color: white;    
+    text-align: center;  
+    border-radius: 5px;
+    border-color: white;
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+}
+
+
+
+.resumoModal{
+    display: flex;
+    justify-content: space-between;
+}
+.textoModal{
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+}
+.fontePequena{
+    font-size: 13px;
+}    
+.fonteMedia{
+    font-size: 14px;
+}    
+.fonteGrande{
+    font-size: 18px;
+}    
+.color-escura{
+    color: #2F2F2F;
+}
+.linhaPequena{     
+    border: 1px solid #EAEAEA;    
+}
+.linhaGrande{
+    
+    border: 1px solid #E0E0E0;
+
+}
